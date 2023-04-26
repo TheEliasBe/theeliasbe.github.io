@@ -12,6 +12,12 @@
             line-height: 0;
             @include body-text;
         }
+        .project-title{
+            text-decoration: none;
+            font-weight: bold;
+            @include body-text;
+            color: var(--fg-color);
+        }
     }
     p{
         color: var(--fg-color-body);

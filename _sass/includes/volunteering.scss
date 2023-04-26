@@ -1,7 +1,7 @@
 .volunteering {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .volunteering-item {
         .role {

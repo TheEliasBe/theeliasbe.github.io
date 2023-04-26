@@ -7,10 +7,10 @@
             <div class="role">
                 {% if p.link %}
                     <a href="{{p.link}}">
-                        {{p.title}}<i data-feather="external-link" style="height: 12px"></i>
+                        <span class="project-title">{{p.title}}</span><i data-feather="external-link" style="height: 12px"></i>
                     </a>
                 {% else %}
-                    {{p.title}}
+                <span class="project-title">{{p.title}}</span>
                 {% endif %}
             </div>
             <span class="details">{{p.details}}</span>

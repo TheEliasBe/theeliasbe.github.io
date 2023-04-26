@@ -9,7 +9,8 @@
                 a {
                     text-decoration: none;
                     font-weight: bold;
-                    @include body-text; 
+                    @include body-text;
+                    color: var(--fg-color);
                 }
                 a:hover {
                     text-decoration: underline;
@@ -21,12 +22,11 @@
                 }
             }
             .authors {
-                @include body-text; 
+                @include body-text;
+                font-style: italic;
             }
             .conference {
-                @include body-text; 
-                color: var(--fg-color-title-sm);
-                font-weight: 100;
+                @include body-text;
             }
         }
     }
