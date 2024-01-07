@@ -1,0 +1,226 @@
+name: First Last
+support_dark_mode: false
+fork: false
+
+motivation:
+  firm_name: "Company"
+  name: "First Last"
+  consulting: True
+  developer: False
+  title: "Job Title"
+  contact: "Recruiter Name"
+
+# Sidebar
+contact:
+  email: mail@example.com
+  # github: TheEliasBe
+  address: "Street 42, City"
+  linkedin: linkedin
+  phone: +49 1626 123456
+  gitlab: 
+  twitter: 
+
+languages:
+  - idiom: German
+    level: native
+  - idiom: English
+    level: fluent
+  - idiom: Italian
+    level: basic
+
+
+education:
+  - degree: M.Sc. in Computer Science
+    time: Oct 2020 - Sep 2023
+    university: Tier 1 University
+    description: Focus on machine learning, NLP and Python programming with PyTorch and graduating with a thesis on text classification using GPT-3
+    # description: Focus courses on machine learning, security engineering and efficient algorithms with a thesis on text classification using GPT-3
+
+  - degree: B.Sc. in Computer Science
+    time: Oct 2016 - Sep 2020
+    university: Tier 1 University
+    description: Fundamentals of computer science including databases, SQL, and Java programming with a thesis on business model simulation
+
+keyskills:
+  - skill: Python
+    level: ●●●
+  - skill: Pandas
+    level: ●●●
+  - skill: SQL
+    level: ●●○
+  - skill: Java
+    level: ●○○
+  - skill: AWS
+    level: ●○○
+  - skill: Agile Development
+    level: ●●○
+
+
+
+skills:
+  - category: Data Science
+    skill:
+      - Python
+      - Pandas
+      - MLflow
+      - Plotly
+      - Apache Spark
+      - Scikit-learn
+      - SQL
+  - category: BackEnd
+    skill: 
+      - Python
+      - Django
+      - REST API
+      - GraphQL
+      - PyTest
+      - Java
+#  - category: Frontend
+#    skill:
+#      - React
+#      - Typescript
+  - category: DevOps
+    skill:
+      - Docker
+      - Kubernetes
+      - PostgreSQL
+      - Git
+
+# Profile
+# profile: |
+
+
+# Experience
+experience:
+  - role: Software Engineer - Working Student
+    time: Jan 2022-Present
+    company: Startup
+    url: "https://www.startup.com"
+    details:
+      - Pioneered key features for the company’s flagship product leading to improved selling proposition and growing ARR by 120k€
+      - Demonstrated exceptional skills in specification, design, and implementation of these features, a testament to my initiative and dependability
+      - Launched collaborative knowledge sharing sessions, resulting in a more cohesive and productive team as proved by 8.9 points in the satisfaction survey compared to 8.2 average
+    technologies_used:
+      - Python
+      - Django
+      - TypeScript
+      - GraphQL
+      - PostgreSQL
+      - Docker
+      - Git
+  
+  - role: Data Engineering - Internship
+    time: Aug 2021-Jan 2022
+    company: Startup
+    url: "https://www.startup.com"
+    details:
+      - Propelled a data-intensive customer project that involved requirements engineering, feature prioritization, and execution, resulting in a successful delivery on time
+      - Implemented efficient and effective data transformation pipelines, resulting in significant time savings for the client of approximately 32 hours per month and improving overall productivity
+      - Demonstrated a remarkable competency to accomplish open-ended tasks with minimal supervision
+    technologies_used:
+      - Python
+      - Kedro
+      - MLflow
+      - Git
+      - Docker
+
+  - role: Data Analytics - Working Student
+    time: Jan 2021 - Aug 2021
+    company: Telecommunications Company
+    url: "https://www.telecom.com"
+    details: |
+      Development of an internal analytics tool for the effect of specific promotion events on churn rate with a focus on business impact and explainable AI enabling the marketing department to make data-driven decisions
+    technologies_used:
+      - Python
+      - DataIKU
+      - pgmpy
+  - role: IT Security Consultancy - Working Student
+    time: Aug 2017 - Oct 2020
+    company: Tier 2 Consulting Firm
+    url: "https://www.consulting.com"
+    details:
+      - Support in annual audits with focus on technical implementation of regulatory IT security requirements and consulting projects in the area of IT risk and cyber security
+      - Development of internal penetration testing tools and automation of manual processes leading to less regulatory risk and more efficient audits
+      - Mastered thoroughness, effective communication, and time management
+    technologies_used:
+      - Burp Suite
+      - WireShark
+      - PowerShell
+      - MS Office
+
+publications:
+  - title: Comparative Study of Large Language Model Methods for Ticket Classification
+    conference: This Master thesis compares cutting-edge large language models on the task of ticket classifiction. The best performing model is fine-tuned using data from a specific use-case and deployed in a production environment.
+  - title: Enhancing the Security of Terraform Scripts through Prompt Optimization of Large Language Models
+    authors: Elias Berger, Valentin Hartig, Felix Sandmair, Maximilian Frank
+    conference: The article discusses using large language models to generate secure Infrastructure as Code (IaC) configurations. The study evaluates the reliability of LLMs in generating secure IaC code, identifies common security vulnerabilities, and proposes a method for detecting and fixing them using an automatic prompt optimization scheme.
+
+
+  - title: Handling uncertainty via conformal classification - a literature survey
+    link: "https://syncandshare.lrz.de/getlink/fiVt6aWVDGffE3MJ5e2oRU/ML_Seminar_Paper.pdf"
+    conference: The paper suggests that improving the accuracy of machine learning models is not always sufficient for high-stakes applications, and that having a notion of confidence is crucial. The authors propose methods for handling uncertainty and providing statistical guarantees using the conformal prediction framework. The paper provides an overview of algorithms for addressing uncertainty in this context.
+
+  - title: Development of a software prototype for modeling and simulating dynamic business models
+    link: "https://syncandshare.lrz.de/getlink/fi32AVh7Prwjz7F1JzQqFJ/Bachelor_s_thesis.pdf"
+    conference: The thesis develops a software prototype for modeling and simulating dynamic business models using the Business Model Canvas and System Dynamics. The objective is to gather quantitative data for optimizing business strategy or simulating future scenarios, with guidelines for the transfer process and limitations to consider.
+
+projects:
+#  - title: Exercise Data Analytics
+#    link: #
+#    details: |
+#      Personal Project for analysis of exercise data collected by the Garmin Connect app and provides more advanced insights than the app itself. The project is currently in development.
+#    technologies_used:
+#    - Python
+#    - AWS Lambda
+#    - Apache Spark
+#    - SciKit Learn
+#    - Plotly
+
+#  - title: Trado
+#    link: "https://www.trado.app"
+#    details: |
+#      The software for indirect procurement of large organizations. Innovation project together with a team of 5 students and a large media company.
+#    technologies_used:
+#    - Python
+#    - Django
+#    - React
+#    - Docker
+
+  - title: Predictive Data Mining for Restaurant Industry
+    details: |
+      Startup project in a team of three for predictive data mining for restaurant industry. On a real-world data set of 2 years, the model could predict the next weeks sales with an accuracy of 85%.
+    technologies_used:
+      - Python
+      - Pandas
+      - Kedro
+      - XGBoost
+      - MLflow
+
+  - title: Ladewunsch.de
+    details: |
+      University project in cooperation with the XXX andXX in a team of three students following strict Scrumban methodology. Enables citizen participation and data analysis for the planning of EV charging infrastructure and was presented to key decision makers at IAA 2022.
+    technologies_used:
+      - Python
+      - Pandas
+      - Plotly
+      - PostgreSQL
+#  - title: roads.sexy
+#    link: "https://github.com/Matthiaas/roads.sexy"
+#    details: |
+#      Creates a virtual test bed for autonomous vehicles. Hackathon winner project. In cooperation with AID/ArgoAI.
+#    technologies_used:
+#      - C#
+#      - Unity
+
+# Volunteering
+volunteering:
+  - time: Aug 2016 - Sep 2016
+    role: Educator and Organizer
+    company: Hlanganani Orphan Care
+    details: Volunteered in Johannesburg "Diepsloot" Township, aided children with their homework, played games with them, and assisted with meal preparation
+
+# Interests
+interests:
+  - Reading
+  - Triathlon
+  - Quantified-Self

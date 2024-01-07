@@ -1,0 +1,20 @@
+{% assign keyskills = site.data.data.keyskills %}
+{% assign motivation = site.data.data.motivation %}
+<section class="projects">
+    <h2 class="title">Key Skills</h2>
+  <table style="width: 100%">
+    <tr>
+      {% for skill in keyskills %}
+      <td style="text-align:center;">
+        <span class="key-skill">{{skill.skill}}</span>
+        <span class="key-skill-level">{{skill.level}}</span>
+      </td>
+        {% endfor %}
+    </tr>
+  </table>
+
+<!--    <h2 class="title">Profile</h2>
+  <p>
+
+  </p>-->
+</section>

@@ -1,0 +1,20 @@
+.projects {
+    .title {
+        @include header;
+    }
+    .project {
+        margin-bottom: 20px;
+        .project-link {
+            @include body-text;
+        }
+        .details {
+
+            line-height: 0;
+            @include body-text;
+        }
+    }
+    p{
+        color: var(--fg-color-body);
+        font-size: 12px;
+    }
+}

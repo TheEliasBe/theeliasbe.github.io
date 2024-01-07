@@ -1,0 +1,122 @@
+{% assign motivation = site.data.data.motivation %}
+<br>
+<br>
+<section class="career-profile">
+    {% if motivation.eng %}
+        <h2 class="title">Motivational Statement</h2>
+    {% else %}
+        <h2 class="title">Motivationsschreiben</h2>
+    {% endif %}
+    <p style="line-height: 2">
+        {% if motivation.eng %}
+            <!--From:<br>
+            Elias Berger<br>
+            Nadisstraße 14<br>
+            80809 Munich<br>
+            <br>-->
+            To:<br>
+            {{ motivation.firm_long_name}}
+            <br>
+            {{ motivation.firm_street }}
+            <br>
+            {{ motivation.firm_city }}
+            <br>
+            <br>
+            {% if motivation.contact %}
+            Dear {{ motivation.contact }},
+            {% else %}
+            Dear Madam or Sir,
+            {% endif %}
+            <br>
+        <br>
+            {% if motivation.consulting %}
+        As a highly skilled individual with a strong passion for delivering results and a deep commitment to caring for clients' businesses, I am excited about joining {{ motivation.firm_name }}.
+        My academic journey includes a Master's degree in Computer Science and a minor in economics from the Technical University of Munich, which has equipped me with strong technical and mathematical skills and a solid understanding of business principles.
+        This knowledge enables me to bridge the gap between technical expertise in machine learning and the broader business context, ultimately leading to project success.
+        Throughout my university years, I actively engaged in group projects, honing my collaboration abilities, showcasing leadership skills, and refining my problem-solving approach.
+        These experiences have further shaped my belief in the potential of empowerment and open communication to deliver high-quality solutions that go beyond project requirements and foster a positive working environment.
+            {% endif %}
+
+            <!--{% if motivation.developer %}
+            As a software engineer who shares your company's values and amateur athlete who is positively dependent on your product, I am thrilled to submit my application for the role {{ motivation.title }} at {{ motivation.firm_name }}.
+            With my ability to develop innovative solutions and my commitment to delivering exceptional results, I am
+            well-equipped to take on the challenges of your data warehouse and exceed your expectations.
+            {% endif %}-->
+            <br><br>
+            Beyond my academic achievements, I have gained valuable professional experience as a working student.
+        As a software developer, I've contributed actively in strategic IT planning and data intensive projects.
+        In my previous employments, I have demonstrated myself as an initiative-driven, reliable team player with a clear communication and openness to new technologies.
+        Working at Ernst & Young and Aitaro, I had the opportunity to develop my stakeholder management skills and tackle challenging customer projects.
+        In my previous employment, I played a crucial role in successfully delivering a data transformation solution that reduced errors and saved the client 32 hours of manual work per month.
+        At Kertos, as the first employee, I adeptly navigated diverse, daily challenges - an essential skill in consulting.
+        Additionally, I co-founded two stealth startups during college, both gaining paying customers, with one even receiving funding from Y-Combinator.
+            <br><br>
+        Driven by ambition and a goal-oriented mindset, I possess an entrepreneurial spirit and my peers have acknowledged my analytical problem-solving style and ability to communicate complex issues concisely.
+        Joining a consulting firm appeals to me greatly, as I thrive on solving intricate business problems with a blend of creative thinking and data analysis while collaborating with exceptional colleagues to support clients.
+        Already with my current competencies, I am confident I can add value to your client's projects from day one.
+        I chose to apply to {{ motivation.firm_name }} deliberately because the company's focus on working collaboratively on high-stakes projects provides an ideal environment for me to grow my skills and excel in my career.
+        I am genuinely excited to demonstrate how effectively I can apply my knowledge to {{ motivation.firm_name }} and contribute my best to achieve mutual success, as your firm offers a significant personal impact on success and reputation, fulfilling my long-term aspirations.
+            <br>
+            <br>
+            Best regards,
+        {% else %}
+            Empfänger:<br>
+            {{ motivation.firm_long_name}}
+            <br>
+            {{ motivation.firm_street }}
+            <br>
+            {{ motivation.firm_city }}
+            <br><br>
+            Sehr geehrte Damen und Herren,
+            <br><br>
+            Als hochqualifizierter Software-Entwickler mit einer unternehmerischen Begeisterung freue ich mich, meine Bewerbung für die Stelle als {{ motivation.title }} bei {{ motivation.firm_name }} einzureichen.
+            Ich bin zuversichtlich, dass sowohl Sie als auch Ihre Kunden von meinem Master-Abschluss in Informatik an der Technischen Universität München und von meinen umfangreichen Erfahrungen als Werkstudent in der Beratung und im Software-Engineering, profitieren können.
+            <br><br>
+            Mit einem Master-Abschluss in Informatik und einem Nebenfach in BWL verfüge ich über ausgeprägte mathematische Fähigkeiten und ein grundlegendes Verständnis der Wirtschaft.
+            Dieses Wissen ermöglicht es mir, technische Fähigkeiten in der IT in einem geschäftlichen Kontext zu setzen, was letztendlich zum Projekterfolg führt.
+            Durch gezielt gewählte Studienschwerpunkte lernte ich Fachwissen für hochaktuelle Themen wie Machine Learning und Sprachverarbeitung.
+            Während meiner Studienzeit hatte ich die Gelegenheit, an interdisziplinären Gruppenprojekten teilzunehmen, bei denen ich nicht nur wertvolle Fähigkeiten zur Zusammenarbeit erwarb, sondern auch die Initiative ergriff, Führungsqualitäten zu beweisen und meine Problemlösungsfähigkeiten weiter zu verfeinern.
+            <br><br>
+            Mein akademisches Wissen wird durch umfangreiche praktische Erfahrungen ergänzt, die ich über mehrere Jahre als Werkstudent sammelte.
+            Über die operativen Aufgaben als Software-Entwickler hinaus, beteilige ich mich an der strategischen IT Planung, identifiziere Probleme und erarbeite umsetzbare Lösungen.
+            Bei einem früheren Arbeitgeber spielte ich eine Schlüsselrolle, um ein Projekt voranzutreiben, indem ich mit dem Kunden gemeinsam die Umsetzung spezifizierte, Teilaufgaben priorisierte und implementierte.
+            Das Ergebnis war die rechtzeitige Bereitstellung einer Datentransformationslösung, die dem Kunden 32 Stunden manuelle Arbeit pro Monat spart.
+            Neben meinen Anstellungsverhältnissen war ich während des Studiums Co-Founder zweier Stealth Start-Ups, welche beide zahlende Kunden gewinnen konnten und eines mittlerweile von Y-Combinator finanziert wird.
+            Bei meiner Arbeit im Team lege ich Wert auf offene Kommunikation und Detailgenauigkeit, um qualitativ hochwertige Lösungen zu liefern, die die Projektanforderungen übertreffen und ein positives Arbeitsumfeld fördern.
+            <br><br>
+            Ich bin eine ehrgeizige und zielorientierte Person mit einem unternehmerischen Drang und einer kreativen Denkweise.
+            Ich gehe analytisch an Problemstellungen heran, indem ich Daten einbeziehe und meine Fähigkeit, komplexe Sachverhalte prägnant zu kommunizieren, wurde mir von meinen Kollegen bestätigt.
+            Aufgrund des Kontakts mit einer Vielzahl von Kunden und der Zusammenarbeit mit exzellenten Kolleginnen und Kollegen ist es mein Ziel, einem Beratungsunternehmen beizutreten.
+            Die Aussicht, komplexe Geschäftsprobleme mit einer Mischung aus kreativem und analytischem Denken zu lösen und damit Kunden zu unterstützen, begeistert mich.
+            Die Bewerbung als {{ motivation.title }} bei {{ motivation.firm_name }} ist eine bewusste Entscheidung, da Ihre Anforderungen mit meinen Kompetenzen übereinstimmen und ich deswegen vom ersten Tag an Ihre Kunden unterstützen kann.
+            Daher bin ich zuversichtlich, dass Ihr Unternehmen ein ideales Umfeld bietet, um mich weiterzubilden und meine Karriere zu entwickeln, und ich werde mein Bestes zum gemeinsamen Erfolg beitragen.
+            Ich würde mich freuen, Ihnen in einem persönlichen Gespräch zu zeigen, wie ich mein Wissen effektiv in Ihrem Unternehmen einsetzen kann.
+            <br><br>
+            Mit freundlichen Grüßen,
+
+        {% endif %}
+        <br>
+        <br>
+        <img src="https://raw.githubusercontent.com/TheEliasBe/theeliasbe.github.io/main/_includes/Unterschrift.png"
+             alt="signature"
+             width="150"
+             style="margin-bottom: -10px; margin-top: 10px"
+        >
+        <script>
+            var today = new Date();
+            var dd = String(today.getDate()).padStart(2, '0');
+            var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+            var yyyy = today.getFullYear();
+
+            today = dd + '.' + mm + '.' + yyyy;
+
+        </script>
+        <!--    <script>document.write(today);</script>-->
+    <p>
+    {% if motivation.eng %}
+    Munich, <script>document.write(today);</script>
+    {% else %}
+    München, <script>document.write(today);</script>
+    {% endif %}
+    </p>
+</section>

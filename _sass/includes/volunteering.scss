@@ -1,0 +1,26 @@
+.volunteering {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .volunteering-item {
+        .role {
+            @include body-text;
+            font-weight: bold;
+            color: var(--fg-color)
+        }
+        .organization {
+            @include body-text;
+            font-weight: bold;
+            text-align: left;
+            .time {
+                @include body-text;
+                font-weight: normal;
+            }
+        }
+        .details {
+            margin-right: 20px;
+            @include body-text;
+        }
+    }
+}

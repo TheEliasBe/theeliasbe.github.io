@@ -1,0 +1,15 @@
+title: Elias Berger
+description:  A beautiful template for your CV.
+url: https://theeliasbe.github.io
+baseurl: ''
+theme_skin: blue
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+    - jekyll-minifier
+
+exclude:
+  - docker-compose.yml
